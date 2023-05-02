@@ -1,0 +1,2 @@
+execute if block ~ ~-.1 ~ air run data modify entity @e[limit=1,sort=nearest,tag=actm.monitor] data.States.Hover set value true
+execute unless block ~ ~-.1 ~ air run data modify entity @e[limit=1,sort=nearest,tag=actm.monitor] data.States.Hover set value false
